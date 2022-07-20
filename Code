@@ -1,3 +1,4 @@
+# This is a simple KeyLogger written in Python 3
 from tkinter import *
 from threading import Thread
 import time
@@ -16,7 +17,7 @@ root.title("Keylogger")
 root.geometry("300x300")
 root.configure(bg="#808080")
 
-# Title
+# This is the title Menu
 theLabel = Label(root, text="Nogi's Keylogger.", bg="#808080")
 theLabel.pack()
 
